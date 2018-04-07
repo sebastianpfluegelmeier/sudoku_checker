@@ -1,0 +1,23 @@
+[[package]]
+name = "rpds"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "serde 1.0.37 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "serde"
+version = "1.0.37"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sudoku_solver"
+version = "0.1.0"
+dependencies = [
+ "rpds 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum rpds 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "99c34ab3c57b338dfe56c5e9c1835d98fca49552dafed340261321bf9a971a9e"
+"checksum serde 1.0.37 (registry+https://github.com/rust-lang/crates.io-index)" = "d3bcee660dcde8f52c3765dd9ca5ee36b4bf35470a738eb0bd5a8752b0389645"
